@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meme Maker</title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+<div class="background">
+<div class="canvas_wrapper">
+	<div class="forms_text" id="text_forms">
+		<h1 style="text-align: center; font-family: 'Arial'; padding-top: 6%;">Кастомные настройки</h1>
+	<div>
+	<span>Ссылка на ваш фон:</span><br><input type="text" name="" id="background_link"><br>
+	<span>Ссылка на ваше лицо: </span><br><input type="text" name="" id="face_link"><br>
+	<span style="float: left; padding-left: 20px;">Изменить текст: </span><br><input type="text" name="" id="text" style="width: 62%;"><select>
+		<option value="red">Red</option>
+		<option value="white">White</option>
+		<option value="blue">Blue</option>
+		<option value="black">Black</option>
+		<option value="pink">Pink</option>
+		<option value="orange">Orange</option>
+	</select><br>
+	<input type="range" name="" maxlength="100" style="padding-bottom: -3%;" id="range">
+	<input type="submit" name="" value="Сменить" id="change_all">
+</div>
+</div>
+<div class="show_custom" id="custom">
+</div>
+<canvas id="canvas" width="400" height="500" style="box-shadow: 0 0 10px rgba(0,0,0,0.5); margin-top: 6%; background: white;"></canvas>
+</div>
+</div>
+<div class="slider">
+	<div class="switcher_slider"></div>
+	<div id="slider_container">
+		<div id="face" class="owl-carousel" style="display: none;">
+			<img src="https://www.stickpng.com/assets/images/5841c17aa6515b1e0ad75aa1.png">
+			<img src="http://s49.radikal.ru/i124/1003/b2/e3c444bc8e0f.gif">
+			<img src="https://webiconspng.com/wp-content/uploads/2017/09/Faces-PNG-Image-53038.png">
+			<img src="https://purepng.com/public/uploads/large/purepng.com-man-face-herofaceshumansfrontalhuman-identityman-1421526885704pyca9.png">
+			<img src="https://www.freepngimg.com/thumb/face/12-barak-obama-face-png-image.png">
+			<img src="https://www.stickpng.com/assets/images/580b585b2edbce24c47b25f9.png">
+			<img src="https://www.stickpng.com/assets/images/580b585b2edbce24c47b2604.png">
+			<img src="https://avatanplus.com/files/resources/mid/56ef1113d5bcf15395dab5a3.png">
+			<img src="http://pngimg.com/uploads/vladimir_putin/vladimir_putin_PNG12.png">
+			<img src="https://stickeroid.com/uploads/pic/full-tlgrmadd/thumb/stickeroid_5bf5472ef28ed.png">
+			<img src="https://s.tcdn.co/b12/d5f/b12d5fb5-fbd0-3a2d-99fc-2642b586f219/2.png">
+		</div>
+		<div id="background" class="owl-carousel">
+		<img src="https://imgflip.com/s/meme/Blank-Colored-Background.jpg">
+		<img src="https://www.meme-arsenal.com/memes/cf3ebd5a24c102677e442c3cfca57917.jpg">
+		<img src="http://risovach.ru/upload/2014/12/generator/pa_67952930_orig_.jpg">
+		<img src="https://i.imgflip.com/j93pv.jpg?a434088">
+		<img src="http://www.livemememaker.com/assets/templates/12.jpg">
+		<img src="https://cdn.wallpapersafari.com/36/16/Rin1o2.jpg">
+		<img src="https://cmoore1004.files.wordpress.com/2015/12/doge-background.jpg">
+		<img src="https://i.pinimg.com/originals/10/d9/9d/10d99d1cccd646b5109d5c5aba09507a.jpg">
+		<img src="http://i.imgur.com/P4lqv.jpg">
+		<img src="https://wallpapercave.com/wp/A7FzeeC.jpg">
+		<img src="https://ak8.picdn.net/shutterstock/videos/2136128/thumb/1.jpg">
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jq_script.js"></script>
+<script type="text/javascript" src="js/image.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
